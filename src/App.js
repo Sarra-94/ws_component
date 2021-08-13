@@ -1,9 +1,12 @@
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import Users from "./Components/Users/Users";
 
 function App() {
   return (
     <div className="App">
-      <h1>workshop component</h1>
+      <Navbar />
+      <Users />
     </div>
   );
 }
